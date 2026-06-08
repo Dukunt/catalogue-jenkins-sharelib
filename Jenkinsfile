@@ -1,5 +1,5 @@
 @Library('jenkins-test-sharedlibrary') _
-def ConfigMap [
+def configMap [
     project: "roboshop"
     component: "catalogue"
 ]
@@ -10,5 +10,5 @@ if( env.BRANCH_NAME.equalsIgnoreCase('main') ) {
     echo " its main branch"
 }
 else {
-    testPipeline(ConfigMap)
+    testPipeline(configMap)
 }
