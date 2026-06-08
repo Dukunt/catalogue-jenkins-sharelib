@@ -1,7 +1,9 @@
 @Library('jenkins-test-sharedlibrary') _
+
 def configMap = [
     project: "roboshop"
     component: "catalogue"
+    
 ]
 
 echo " Triggering shared library pipeline"
