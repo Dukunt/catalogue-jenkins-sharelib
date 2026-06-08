@@ -2,7 +2,6 @@
 
 def configMap = [
     project: "roboshop"
-    component: "catalogue"
     
 ]
 
