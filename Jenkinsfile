@@ -1,8 +1,8 @@
 @Library('jenkins-test-sharedlibrary') _
 
 def configMap = [
-    project: "roboshop"
-    component: "catalogue"
+    project = "roboshop"
+    component ="catalogue"
     
 ]
 
