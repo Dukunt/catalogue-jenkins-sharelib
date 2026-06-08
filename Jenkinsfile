@@ -8,9 +8,9 @@ def configMap = [
 
 echo " Triggering shared library pipeline"
 
-if( env.BRANCH_NAME.equalsIgnoreCase('main') ) {
+if ( env.BRANCH_NAME.equalsIgnoreCase('main') ) {
     echo " its main branch"
 }
 else {
-    testPipeline(configMap)
+     testPipeline(configMap)
 }
